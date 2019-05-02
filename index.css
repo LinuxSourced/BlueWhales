@@ -1,3 +1,10 @@
 body {
 	
 }
+.banner {
+	background-color: rgb(15,110,255);
+	border-color: rgb(15,110,255);
+	padding: 50px;
+	margin: 15px;
+	
+}
