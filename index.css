@@ -27,7 +27,7 @@ body {
 	
 }
 @media all and (max-width: 600px) {
-  #image1 {
+  #img {
   	max-width: 200px;
   }
 }
