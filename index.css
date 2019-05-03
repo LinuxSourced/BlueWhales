@@ -7,20 +7,16 @@ body {
 	
 	background-color: rgb(15,110,255);
 	border-color: rgb(15,110,255);
-	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin: 15px;
 	
 }
-#homepageButton {
-	
-	text-align:center;
-	color: white;
-	font-family: font-family: Montserrat, Arial, Sans Serif;
-	
-}
+
 .description  {
 	text-align:center;
 }
+
 #image1 {
 	display: block;
 	margin-left: auto;
@@ -32,4 +28,28 @@ body {
   	max-width: 200px;
   }
 }
+
+#homepageButton {
+	
+	/*text-align:center;
+	float: middle;*/
+	position: fixed;
+	left: 50%;
+	color: white;
+	font-family: font-family: Montserrat, Arial, Sans Serif;
+	
+}
+#factsButton {
+	
+	text-align: left;
+	color: white;
+	
+}
+
+
+
+
+
+
+
 
