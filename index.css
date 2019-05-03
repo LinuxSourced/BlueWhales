@@ -24,5 +24,12 @@ body {
 #image1 {
 	
 	align:middle;
-	max-width: 400px;
+	
 }
+@media all and (max-width: 600px) {
+  #image1 {
+  	max-width: 200px;
+  }
+}
+	
+
