@@ -8,8 +8,7 @@ body {
 	background-color: rgb(15,110,255);
 	border-color: rgb(15,110,255);
 	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 15px;
+	padding-bottom: 70px;
 	
 }
 
@@ -27,12 +26,11 @@ body {
   img {
   	max-width: 200px;
   }
+  
 }
 
 #homepageButton {
 	
-	/*text-align:center;
-	float: middle;*/
 	position: fixed;
 	left: 50%;
 	color: white;
@@ -41,11 +39,16 @@ body {
 }
 #factsButton {
 	
-	text-align: left;
+	position: fixed;
+	left: 9%;
 	color: white;
 	
 }
-
+#placeholder {
+	position: fixed;
+	right: 9%;
+	color: white;
+}
 
 
 
