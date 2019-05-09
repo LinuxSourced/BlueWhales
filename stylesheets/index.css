@@ -1,0 +1,33 @@
+body {
+	
+	text-decoration: none;
+	
+}
+
+
+.description  {
+	text-align:center;
+}
+
+#image1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media all and (max-width: 600px) {
+  img {
+  	max-width: 200px;
+  }
+  
+}
+
+;
+}
+
+
+
+
+
+
+
