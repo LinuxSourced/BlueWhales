@@ -7,6 +7,10 @@ body {
 
 .description  {
 	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 100px;
+	padding-left: 100px;
 }
 
 #image1 {
@@ -19,8 +23,12 @@ body {
   img {
   	max-width: 200px;
   }
-  
+  .description {
+	padding-right: 0px;
+	padding-left: 0px;
+  }
 }
+
 
 
 
