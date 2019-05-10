@@ -13,20 +13,20 @@
 	position: absolute;
 	left: 50%;
 	color: white;
-	@media all and (max-width: 800px) {
-		left: 45%;	
+    @media all and (max-width: 300px) {
+		left: 32%;	
 	}
-	@media all and (max-width: 600px) {  
-		left: 35%;	
-	}
-	@media all and (max-width: 500px) {
-		left: 40%;	
-	}	
-	@media all and (max-width: 400px) {
+    @media all and (max-width: 400px) {
 		left: 36%;	
 	}
-	@media all and (max-width: 300px) {
-		left: 32%;	
+    @media all and (max-width: 500px) {
+		left: 40%;	
+	}	
+    @media all and (max-width: 600px) {  
+		left: 35%;	
+	}
+	@media all and (max-width: 800px) {
+		left: 45%;	
 	}
 }
 #factsButton {
