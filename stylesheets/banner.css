@@ -27,6 +27,16 @@
 	right: 9%;
 	color: white
 }
+@media all and (max-width: 300px) {
+	#homepageButton {
+		left: 32%;	
+	}
+}
+@media all and (max-width: 400px) {
+	#homepageButton {
+		left: 45%;	
+	}
+}
 @media all and (max-width: 600px) {
 	#homepageButton {
 		left: 35%;	
