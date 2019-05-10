@@ -32,3 +32,8 @@
 		left: 35%;	
 	}
 }
+@media all and (max-width: 800px) {
+	#homepageButton {
+		left: 45%;	
+	}
+}
