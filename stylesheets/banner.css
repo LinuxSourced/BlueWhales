@@ -13,7 +13,21 @@
 	position: absolute;
 	left: 50%;
 	color: white;
-	
+	@media all and (max-width: 800px) {
+		left: 45%;	
+	}
+	@media all and (max-width: 600px) {  
+		left: 35%;	
+	}
+	@media all and (max-width: 500px) {
+		left: 40%;	
+	}	
+	@media all and (max-width: 400px) {
+		left: 36%;	
+	}
+	@media all and (max-width: 300px) {
+		left: 32%;	
+	}
 }
 #factsButton {
 	
@@ -31,30 +45,7 @@
 
 
 
-@media all and (max-width: 800px) {
-	#homepageButton {
-		left: 45%;	
-	}
-		@media all and (max-width: 600px) {
-	        	#homepageButton {
-				left: 35%;	
-		 	}
-			@media all and (max-width: 500px) {
-				#homepageButton {
-				left: 40%;	
-				}	
-			}
-				@media all and (max-width: 400px) {
-					#homepageButton {
-						left: 36%;	
-					}
-					@media all and (max-width: 300px) {
-						#homepageButton {
-						left: 32%;	
-						}
-					}			
 
-			}
+		
+			
 
-		}
-}
