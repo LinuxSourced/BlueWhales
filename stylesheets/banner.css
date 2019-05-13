@@ -1,51 +1,34 @@
-.banner {
+.menu-container {
 	
 	background-color: rgb(15,110,255);
 	border-color: rgb(15,110,255);
-	padding-bottom: 70px;
+	padding: 20px 0;
 	font-size: 20px;
+	color: white;
 	position: relative;
 	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	display: flex;
+	justify-content: center;
+}
+.menu {
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.button1 {
 	
 }
-#homepageButton {
-	
-	position: absolute;
-	left: 50%;
-	color: white;
-    @media all and (max-width: 300px) {
-		left: 32%;	
-	}
-    @media all and (max-width: 400px) {
-		left: 36%;	
-	}
-    @media all and (max-width: 500px) {
-		left: 40%;	
-	}	
-    @media all and (max-width: 600px) {  
-		left: 35%;	
-	}
-	@media all and (max-width: 800px) {
-		left: 45%;	
-	}
-}
-#factsButton {
-	
-	position: absolute;
-	left: 9%;
-	color: white;
+.button2 {
 	
 }
-#placeholder {
-	position: absolute;
-	right: 9%;
-	color: white
+.button3 {
+	
 }
-
-
-
-
-
+.button1, .button2, .button3 {
+	color: color;
+	text-decoration: none;
+}
 		
 			
 
