@@ -1,10 +1,8 @@
 .menu-container {
-	
 	background-color: rgb(15,110,255);
 	border-color: rgb(15,110,255);
 	padding: 20px 0;
 	font-size: 20px;
-	color: white;
 	position: relative;
 	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
 	display: flex;
@@ -17,16 +15,16 @@
 	flex-wrap: wrap;
 }
 .button1 {
-	
+	order: 2;
 }
 .button2 {
-	
+	order: 1;
 }
 .button3 {
-	
+	order: 3;
 }
 .button1, .button2, .button3 {
-	color: color;
+	color: white;
 	text-decoration: none;
 }
 		
