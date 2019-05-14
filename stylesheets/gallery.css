@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+img {
+    margin: 7px;
+    align-self: center;
+    width: 250px;
+    height: 250x;
+}
+
