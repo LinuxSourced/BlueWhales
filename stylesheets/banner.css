@@ -17,5 +17,7 @@ nav {
 .button1, .button2, .button3 {
     text-decoration: none;
 }
-
+a:hover {
+	background-color: white;
+}
 
