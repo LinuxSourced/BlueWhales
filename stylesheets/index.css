@@ -15,6 +15,7 @@ body {
 
 #image1 {
 	padding: 20px;
+	align-self: center;
 }
 
 @media all and (max-width: 600px) {
