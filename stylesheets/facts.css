@@ -1,6 +1,14 @@
-#list {
+#list1 {
+	font-size: 20px;
+}
+#list2 {
 	font-size: 20px;
 }
 .list-container {
-	margin: 20px;
+	
+	/* Flex Boxes  */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 }
